@@ -27,7 +27,7 @@ jobs:
 
 
     - name: Run automation script
-      run: python scripts/automate_RohmatuKhoirulAnam.py
+      run: preprocessing/automate_RohmatuKhoirulAnam.py
     
 
     - name: Upload clean data artifact
